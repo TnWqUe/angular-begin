@@ -1,0 +1,9 @@
+<header>
+  <div class="bar" routerLink="/">Home</div>
+  <div class="bar" routerLink="/chart">Chart</div>
+  <div class="bar" routerLink="/table">Table</div>
+ </header>
+ <app-chart  [post]="posts" ></app-chart>
+ <!-- Работа с таблицей -->
+ <app-table  [post]="posts" ></app-table>
+<router-outlet></router-outlet>
